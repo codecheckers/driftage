@@ -1,0 +1,30 @@
+---
+version: https://codecheck.org.uk/spec/config/1.0
+
+paper:
+  title: >
+   Driftage: a multi-agent system for concept drift detection
+   and an application on electromyography.
+  authors:
+    - name: Diogo Munaro Vieira
+    - name: Chrystinne Fernandes
+    - name: Carlos Lucena
+    - name: Sérgio Lifschitz
+      ORCID: 0000-0003-3073-3734
+  reference: >
+    Gigascience (2020) under review.
+
+manifest:
+  - file: driftage_download.png
+    comment: manuscript Figure 5
+
+codechecker:
+  - name: Stephen J. Eglen
+    ORCID: 0000-0001-8607-8025
+
+summary: >
+  Reproduction from mybinder
+repository: https://github.com/codecheckers/Reproduction-Hancock
+check_time: "2020-12-07 15:00:00"
+certificate: 2020-024
+report: https://doi.org/10.5281/zenodo.FIXME
