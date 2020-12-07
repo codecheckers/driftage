@@ -16,7 +16,7 @@ paper:
 
 manifest:
   - file: driftage_download.png
-    comment: manuscript Figure 5
+    comment: manuscript Figure 5 (bottom two rows only)
 
 codechecker:
   - name: Stephen J. Eglen
@@ -24,7 +24,7 @@ codechecker:
 
 summary: >
   Reproduction from mybinder
-repository: https://github.com/codecheckers/Reproduction-Hancock
+repository: https://github.com/codecheckers/driftage
 check_time: "2020-12-07 15:00:00"
 certificate: 2020-024
-report: https://doi.org/10.5281/zenodo.FIXME
+report: https://doi.org/10.5281/zenodo.4310025

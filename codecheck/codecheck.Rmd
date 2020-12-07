@@ -58,19 +58,30 @@ latex_summary_of_manifest(metadata, manifest_df, root)
 
 # Summary
 
-This code was (not) straightforward to codecheck.
-[... ADD MORE INTERESTING FINDINGS HERE..]
+Thanks to the authors for providing a mybinder instance.  This made
+the work trivial to reproduce.
+
+
+The mybinder instance is located at:
+\url{https://mybinder.org/v2/gh/dmvieira/driftage/HEAD?filepath=examples%2Fhealth_monitor%2FData%20Analysis.ipynb}
 
 \clearpage
 
 # CODECHECKER notes
 
-The GitHub repo ...
-Code was written in ...
-I went through the following steps ...
-One hard problem was ...
+The authors had kindly provided a mybinder  instance (see bottom of
+page 1 of this certificate), making it simple
+to reproduce their work.  Although the paper contains five figures,
+only one figure (5) contained scientific results, which is reproduced
+here.
 
-This took ... minutes to complete on {a large workstation, my laptop}.
+
+After starting mybinder and re-running the notebook, the final figure
+was downloaded and saved locally.  This contained several time series
+plots, the final two of which matched Figure 5 of the manuscript.
+
+
+This took just a few minutes to re-run.
 
 \setcounter{table}{0}
 \setcounter{figure}{0}
@@ -79,21 +90,9 @@ This took ... minutes to complete on {a large workstation, my laptop}.
 
 \clearpage
 
-```{r, echo=FALSE, fig.cap=manifest_df[1:7,"comment"]}
+```{r, echo=FALSE, fig.cap=manifest_df[1,"comment"]}
 # TODO turn into a loop 
 knitr::include_graphics(manifest_df[1, "dest"])
-cat('\n\n')
-knitr::include_graphics(manifest_df[2, "dest"])
-cat('\n\n')
-knitr::include_graphics(manifest_df[3, "dest"])
-cat('\n\n')
-knitr::include_graphics(manifest_df[4, "dest"])
-cat('\n\n')
-knitr::include_graphics(manifest_df[5, "dest"])
-cat('\n\n')
-knitr::include_graphics(manifest_df[6, "dest"])
-cat('\n\n')
-knitr::include_graphics(manifest_df[7, "dest"])
 ```
 
 \clearpage
@@ -102,9 +101,9 @@ knitr::include_graphics(manifest_df[7, "dest"])
 
 ## Acknowledgements
 
-I would like to thank Dr Bhatt and his team for promptly answering any
-queries I had with this reproduction.  CODECHECK is financially
-supported by the Mozilla foundation.
+I would like to thank the authors for kindly preparing a video and
+mybinder instance to make this reproduction almost effortless.
+CODECHECK was financially supported by the Mozilla foundation.
 
 
 # Citing this document
