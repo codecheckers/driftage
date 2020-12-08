@@ -6,3 +6,7 @@
 
 
 [launch mybinder](https://mybinder.org/v2/gh/dmvieira/driftage/HEAD?filepath=examples%2Fhealth_monitor%2FData%20Analysis.ipynb)
+
+The github repo for the
+[driftage](https://github.com/dmvieira/driftage) project also contains
+instructions e.g. on a docker configuration.
